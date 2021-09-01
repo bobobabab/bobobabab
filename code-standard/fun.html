@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>常用方法 | lanbo前端博客</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="前端笔记整理">
+    
+    <link rel="preload" href="/bobobabab/assets/css/0.styles.5cd5c99f.css" as="style"><link rel="preload" href="/bobobabab/assets/js/app.f57e1d56.js" as="script"><link rel="preload" href="/bobobabab/assets/js/4.528b6e3f.js" as="script"><link rel="preload" href="/bobobabab/assets/js/16.97fcdd59.js" as="script"><link rel="prefetch" href="/bobobabab/assets/js/1.4b0989d4.js"><link rel="prefetch" href="/bobobabab/assets/js/10.2138c83b.js"><link rel="prefetch" href="/bobobabab/assets/js/11.59e995a1.js"><link rel="prefetch" href="/bobobabab/assets/js/12.1b1522ba.js"><link rel="prefetch" href="/bobobabab/assets/js/13.f86e8c32.js"><link rel="prefetch" href="/bobobabab/assets/js/14.26121d71.js"><link rel="prefetch" href="/bobobabab/assets/js/15.1e3df238.js"><link rel="prefetch" href="/bobobabab/assets/js/17.e1c942a2.js"><link rel="prefetch" href="/bobobabab/assets/js/18.735c5861.js"><link rel="prefetch" href="/bobobabab/assets/js/19.f47bf3bd.js"><link rel="prefetch" href="/bobobabab/assets/js/2.650da527.js"><link rel="prefetch" href="/bobobabab/assets/js/20.c423bc82.js"><link rel="prefetch" href="/bobobabab/assets/js/21.fbd680ff.js"><link rel="prefetch" href="/bobobabab/assets/js/22.e374ec05.js"><link rel="prefetch" href="/bobobabab/assets/js/23.5b12e98c.js"><link rel="prefetch" href="/bobobabab/assets/js/24.ddd48fdd.js"><link rel="prefetch" href="/bobobabab/assets/js/25.37521aa6.js"><link rel="prefetch" href="/bobobabab/assets/js/26.b8ac7822.js"><link rel="prefetch" href="/bobobabab/assets/js/27.d06d66c6.js"><link rel="prefetch" href="/bobobabab/assets/js/28.d5fe34d2.js"><link rel="prefetch" href="/bobobabab/assets/js/29.62d6bf66.js"><link rel="prefetch" href="/bobobabab/assets/js/5.b2a5e2b2.js"><link rel="prefetch" href="/bobobabab/assets/js/6.ff67554c.js"><link rel="prefetch" href="/bobobabab/assets/js/7.f052497a.js"><link rel="prefetch" href="/bobobabab/assets/js/8.f8176831.js"><link rel="prefetch" href="/bobobabab/assets/js/9.1b76058a.js">
+    <link rel="stylesheet" href="/bobobabab/assets/css/0.styles.5cd5c99f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bobobabab/" class="home-link router-link-active"><!----> <span class="site-name">lanbo前端博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bobobabab/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/bobobabab/code-standard/fun.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  常用方法
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="相关文档" class="dropdown-title"><span class="title">相关文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="相关文档" class="mobile-dropdown-title"><span class="title">相关文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/css.html" class="nav-link">
+  CSS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/js.html" class="nav-link">
+  JS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/img.html" class="nav-link">
+  图片规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/vue.html" class="nav-link">
+  Vue 开发规范目录及说明
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/docs.html" class="nav-link">
+  项目组织规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/git.html" class="nav-link">
+  Git规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/performance.html" class="nav-link">
+  性能规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/design.html" class="nav-link">
+  技术设计文档
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bobobabab/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/bobobabab/code-standard/fun.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  常用方法
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="相关文档" class="dropdown-title"><span class="title">相关文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="相关文档" class="mobile-dropdown-title"><span class="title">相关文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/css.html" class="nav-link">
+  CSS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/js.html" class="nav-link">
+  JS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/img.html" class="nav-link">
+  图片规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/vue.html" class="nav-link">
+  Vue 开发规范目录及说明
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/docs.html" class="nav-link">
+  项目组织规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/git.html" class="nav-link">
+  Git规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/performance.html" class="nav-link">
+  性能规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/design.html" class="nav-link">
+  技术设计文档
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>常用方法</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bobobabab/code-standard/fun.html#对象深拷贝" class="sidebar-link">对象深拷贝</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#格式化时间" class="sidebar-link">格式化时间</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#复制方法" class="sidebar-link">复制方法</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#函数节流" class="sidebar-link">函数节流</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#函数防抖" class="sidebar-link">函数防抖</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#生成随机-len-位数" class="sidebar-link">生成随机 len 位数</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#时间戳转为固定格式时间" class="sidebar-link">时间戳转为固定格式时间</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#判断设备类型" class="sidebar-link">判断设备类型</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#xss-预防方式" class="sidebar-link">xss 预防方式</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#滚动到指定元素区域" class="sidebar-link">滚动到指定元素区域</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#平滑滚动至顶部" class="sidebar-link">平滑滚动至顶部</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#缓存函数" class="sidebar-link">缓存函数</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/bobobabab/code-standard/fun.html#检测底部是否可见" class="sidebar-link">检测底部是否可见</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="对象深拷贝"><a href="#对象深拷贝" class="header-anchor">#</a> 对象深拷贝</h2> <div class="language- extra-class"><pre class="language-text"><code>export const deepClone = data =&gt; {
+  var type = getObjType(data)
+  var obj
+  if (type === 'array') {
+    obj = []
+  } else if (type === 'object') {
+    obj = {}
+  } else {
+    // 不再具有下一层次
+    return data
+  }
+  if (type === 'array') {
+    for (var i = 0, len = data.length; i &lt; len; i++) {
+      obj.push(deepClone(data[i]))
+    }
+  } else if (type === 'object') {
+    for (var key in data) {
+      obj[key] = deepClone(data[key])
+    }
+  }
+  return obj
+}
+</code></pre></div><h2 id="格式化时间"><a href="#格式化时间" class="header-anchor">#</a> 格式化时间</h2> <div class="language- extra-class"><pre class="language-text"><code>export const getDate = (data, flag) =&gt; {
+  let time = ''
+  let date = data || new Date(),
+    y = date.getFullYear(),
+    m = (date.getMonth() + 1).toString().padStart(2, &quot;0&quot;),
+    d = date
+      .getDate()
+      .toString()
+      .padStart(2, &quot;0&quot;),
+    h = date.getHours().toString()
+      .padStart(2, &quot;0&quot;),
+    M = date.getMinutes().toString()
+      .padStart(2, &quot;0&quot;),
+    S = date.getSeconds().toString()
+      .padStart(2, &quot;0&quot;);
+
+
+  if (flag) {
+    time = `${y}-${m}-${d} ${h}:${M}:${S}`
+  } else {
+    time = `${y}/${m}/${d}`
+  }
+  return time;
+}
+</code></pre></div><h2 id="复制方法"><a href="#复制方法" class="header-anchor">#</a> 复制方法</h2> <div class="language- extra-class"><pre class="language-text"><code>export const copyUrl = (text) =&gt; {
+  let input = document.createElement(&quot;input&quot;);
+  input.value = text;
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, input.value.length)
+
+  if (document.execCommand) {
+    document.execCommand('Copy');
+    Message.success('复制成功');
+  } else {
+    Message.error('复制失败');
+  }
+
+  document.body.removeChild(input);
+
+}
+</code></pre></div><h2 id="函数节流"><a href="#函数节流" class="header-anchor">#</a> 函数节流</h2> <div class="language- extra-class"><pre class="language-text"><code>export function throttle(fn, delay) {
+  var lastTime;
+  var timer;
+  var delay = delay || 200;
+  return function () {
+    var args = arguments;
+    // 记录当前函数触发的时间
+    var nowTime = Date.now();
+    if (lastTime &amp;&amp; nowTime - lastTime &lt; delay) {
+      clearTimeout(timer);
+      timer = setTimeout(() =&gt; {
+        // 记录上一次函数触发的时间
+        lastTime = nowTime;
+        // 修正this指向问题
+        fn.apply(this, args);
+      }, delay);
+    } else {
+
+      fn.apply(this, args);
+      lastTime = nowTime;
+    }
+  }
+}
+</code></pre></div><h2 id="函数防抖"><a href="#函数防抖" class="header-anchor">#</a> 函数防抖</h2> <div class="language- extra-class"><pre class="language-text"><code>export function debounce(func, wait = 1000, immediate = true) {
+  let timer = null
+  let flag = true
+  return function (...args) {
+    if (timer) clearTimeout(timer)
+    if (flag) {
+      flag = false
+      if (immediate) {
+        func.apply(this, args)
+      }
+    }
+    timer = setTimeout(() =&gt; {
+      flag = true
+      if (!immediate) {
+        func.apply(this, args)
+      }
+    }, wait)
+  }
+}
+
+</code></pre></div><h2 id="生成随机-len-位数"><a href="#生成随机-len-位数" class="header-anchor">#</a> 生成随机 len 位数</h2> <div class="language- extra-class"><pre class="language-text"><code>export const randomLenNum = (len, date) =&gt; {
+  let random = ''
+  random = Math.ceil(Math.random() * 100000000000000).toString().substr(0, len || 4)
+  if (date) random = random + Date.now()
+  return random
+}
+</code></pre></div><h2 id="时间戳转为固定格式时间"><a href="#时间戳转为固定格式时间" class="header-anchor">#</a> 时间戳转为固定格式时间</h2> <div class="language- extra-class"><pre class="language-text"><code>export const timeTamp2FormateTime = function (val) {
+  const h = parseInt(val / 3600);
+  const m = parseInt(val / 60) % 60;
+  const s = val % 60;
+  return `${h &gt; 9 ? h : `0${h}`}:${m &gt; 9 ? m : `0${m}`}:${
+    s &gt; 9 ? s : `0${s}`
+    }`;
+}
+</code></pre></div><h2 id="判断设备类型"><a href="#判断设备类型" class="header-anchor">#</a> 判断设备类型</h2> <div class="language- extra-class"><pre class="language-text"><code>export const checkClinetType = function() {
+  //获取请求头中的userAgent
+  const u = navigator.userAgent;
+  //是否是android浏览器
+  const isAndroid = u.indexOf('Android') &gt; -1;
+  //是否是ios浏览器
+  const isIos = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+  let type = '';
+  if (isAndroid) {
+    type = &quot;android&quot;;
+  } else if (isIos) {
+    type = 'ios';
+  } else {
+    type = 'pc';
+  }
+  return type
+}
+</code></pre></div><h2 id="xss-预防方式"><a href="#xss-预防方式" class="header-anchor">#</a> xss 预防方式</h2> <div class="language- extra-class"><pre class="language-text"><code>export const xssCheck = function entities(s) {
+    let e = {
+        '&quot;': '&amp;quot;',
+        '&amp;': '&amp;amp;',
+        '&lt;': '&amp;lt;',
+        '&gt;': '&amp;gt;'
+    }
+    return s.replace(/[&quot;&lt;&gt;&amp;]/g, m =&gt; {
+        return e[m]
+    })
+}
+</code></pre></div><h2 id="滚动到指定元素区域"><a href="#滚动到指定元素区域" class="header-anchor">#</a> 滚动到指定元素区域</h2> <div class="language- extra-class"><pre class="language-text"><code>export const smoothScroll = element =&gt;
+  document.querySelector(element).scrollIntoView({
+    behavior: 'smooth'
+  });
+</code></pre></div><h2 id="平滑滚动至顶部"><a href="#平滑滚动至顶部" class="header-anchor">#</a> 平滑滚动至顶部</h2> <div class="language- extra-class"><pre class="language-text"><code>export const scrollToTop = () =&gt; {
+  const c = document.documentElement.scrollTop || document.body.scrollTop;
+  if (c &gt; 0) {
+    window.requestAnimationFrame(scrollToTop);
+    window.scrollTo(0, c - c / 8);
+  }
+};
+</code></pre></div><h2 id="缓存函数"><a href="#缓存函数" class="header-anchor">#</a> 缓存函数</h2> <div class="language- extra-class"><pre class="language-text"><code>export const memorize = function(fn) {
+  const cache = {}
+  return function(...args) {
+    const _args = JSON.stringify(args)
+    return cache[_args] || (cache[_args] = fn.apply(fn, args))
+  }
+}
+
+</code></pre></div><h2 id="检测底部是否可见"><a href="#检测底部是否可见" class="header-anchor">#</a> 检测底部是否可见</h2> <div class="language- extra-class"><pre class="language-text"><code>export const bottomVisible = () =&gt;
+  document.documentElement.clientHeight + window.scrollY &gt;=
+  (document.documentElement.scrollHeight || document.documentElement.clientHeight);
+
+</code></pre></div><p>。</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/bobobabab/assets/js/app.f57e1d56.js" defer></script><script src="/bobobabab/assets/js/4.528b6e3f.js" defer></script><script src="/bobobabab/assets/js/16.97fcdd59.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Cli使用须知 | lanbo前端博客</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    
+    <meta name="description" content="前端笔记整理">
+    
+    <link rel="preload" href="/bobobabab/assets/css/0.styles.5cd5c99f.css" as="style"><link rel="preload" href="/bobobabab/assets/js/app.f57e1d56.js" as="script"><link rel="preload" href="/bobobabab/assets/js/4.528b6e3f.js" as="script"><link rel="preload" href="/bobobabab/assets/js/27.d06d66c6.js" as="script"><link rel="prefetch" href="/bobobabab/assets/js/1.4b0989d4.js"><link rel="prefetch" href="/bobobabab/assets/js/10.2138c83b.js"><link rel="prefetch" href="/bobobabab/assets/js/11.59e995a1.js"><link rel="prefetch" href="/bobobabab/assets/js/12.1b1522ba.js"><link rel="prefetch" href="/bobobabab/assets/js/13.f86e8c32.js"><link rel="prefetch" href="/bobobabab/assets/js/14.26121d71.js"><link rel="prefetch" href="/bobobabab/assets/js/15.1e3df238.js"><link rel="prefetch" href="/bobobabab/assets/js/16.97fcdd59.js"><link rel="prefetch" href="/bobobabab/assets/js/17.e1c942a2.js"><link rel="prefetch" href="/bobobabab/assets/js/18.735c5861.js"><link rel="prefetch" href="/bobobabab/assets/js/19.f47bf3bd.js"><link rel="prefetch" href="/bobobabab/assets/js/2.650da527.js"><link rel="prefetch" href="/bobobabab/assets/js/20.c423bc82.js"><link rel="prefetch" href="/bobobabab/assets/js/21.fbd680ff.js"><link rel="prefetch" href="/bobobabab/assets/js/22.e374ec05.js"><link rel="prefetch" href="/bobobabab/assets/js/23.5b12e98c.js"><link rel="prefetch" href="/bobobabab/assets/js/24.ddd48fdd.js"><link rel="prefetch" href="/bobobabab/assets/js/25.37521aa6.js"><link rel="prefetch" href="/bobobabab/assets/js/26.b8ac7822.js"><link rel="prefetch" href="/bobobabab/assets/js/28.d5fe34d2.js"><link rel="prefetch" href="/bobobabab/assets/js/29.62d6bf66.js"><link rel="prefetch" href="/bobobabab/assets/js/5.b2a5e2b2.js"><link rel="prefetch" href="/bobobabab/assets/js/6.ff67554c.js"><link rel="prefetch" href="/bobobabab/assets/js/7.f052497a.js"><link rel="prefetch" href="/bobobabab/assets/js/8.f8176831.js"><link rel="prefetch" href="/bobobabab/assets/js/9.1b76058a.js">
+    <link rel="stylesheet" href="/bobobabab/assets/css/0.styles.5cd5c99f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/bobobabab/" class="home-link router-link-active"><!----> <span class="site-name">lanbo前端博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/bobobabab/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/bobobabab/code-standard/fun.html" class="nav-link">
+  常用方法
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="相关文档" class="dropdown-title"><span class="title">相关文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="相关文档" class="mobile-dropdown-title"><span class="title">相关文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/css.html" class="nav-link">
+  CSS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/js.html" class="nav-link">
+  JS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/img.html" class="nav-link">
+  图片规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/vue.html" class="nav-link">
+  Vue 开发规范目录及说明
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/docs.html" class="nav-link">
+  项目组织规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/git.html" class="nav-link">
+  Git规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/performance.html" class="nav-link">
+  性能规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/design.html" class="nav-link">
+  技术设计文档
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/bobobabab/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/bobobabab/code-standard/fun.html" class="nav-link">
+  常用方法
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="相关文档" class="dropdown-title"><span class="title">相关文档</span> <span class="arrow down"></span></button> <button type="button" aria-label="相关文档" class="mobile-dropdown-title"><span class="title">相关文档</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/css.html" class="nav-link">
+  CSS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/js.html" class="nav-link">
+  JS规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/img.html" class="nav-link">
+  图片规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/vue.html" class="nav-link">
+  Vue 开发规范目录及说明
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/docs.html" class="nav-link">
+  项目组织规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/git.html" class="nav-link">
+  Git规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/performance.html" class="nav-link">
+  性能规范
+</a></li><li class="dropdown-item"><!----> <a href="/bobobabab/code-standard/design.html" class="nav-link">
+  技术设计文档
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>工具</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bobobabab/jzjy/js/cli.html" aria-current="page" class="active sidebar-link">Cli使用须知</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/bobobabab/jzjy/js/cli.html#启动web服务器" class="sidebar-link">启动web服务器</a></li></ul></li><li><a href="/bobobabab/jzjy/js/request.html" class="sidebar-link">基于 Axios 二次封装的 Request 库</a></li><li><a href="/bobobabab/jzjy/js/storage.html" class="sidebar-link">浏览器Stroage封装</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/bobobabab/jzjy/components/verify.html" class="sidebar-link">Verify 验证码</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="cli使用须知"><a href="#cli使用须知" class="header-anchor">#</a> Cli使用须知</h1> <h2 id="启动web服务器"><a href="#启动web服务器" class="header-anchor">#</a> 启动web服务器</h2> <p>可以使用Npm或Yarn</p> <div class="language- extra-class"><pre class="language-text"><code>npm i --save @jzjy/cli
+</code></pre></div><p>或者</p> <div class="language- extra-class"><pre class="language-text"><code>yarn add @jzjy/cli
+</code></pre></div><p>或者全局安装</p> <div class="language- extra-class"><pre class="language-text"><code>npm i -g @jzjy/cli
+</code></pre></div><div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>建议全局安装本模块，可以在项目根目录进行快速开发组件及测试</p></div> <h3 id="启动web服务"><a href="#启动web服务" class="header-anchor">#</a> 启动web服务</h3> <p>快速启动静态html服务以及vue组件（支持热加载）</p> <h3 id="参数"><a href="#参数" class="header-anchor">#</a> 参数</h3> <table><thead><tr><th style="text-align:left;">参数</th> <th style="text-align:left;">别名</th> <th style="text-align:left;">描述</th> <th style="text-align:left;">默认值</th></tr></thead> <tbody><tr><td style="text-align:left;">--help</td> <td style="text-align:left;">-h</td> <td style="text-align:left;">帮助</td> <td style="text-align:left;"></td></tr> <tr><td style="text-align:left;">--port</td> <td style="text-align:left;">-p</td> <td style="text-align:left;">端口</td> <td style="text-align:left;">8000</td></tr> <tr><td style="text-align:left;">--proxy</td> <td style="text-align:left;">-P</td> <td style="text-align:left;">代理请求地址</td> <td style="text-align:left;"></td></tr> <tr><td style="text-align:left;">--open</td> <td style="text-align:left;">-o</td> <td style="text-align:left;">是否自动打开浏览器</td> <td style="text-align:left;">false</td></tr> <tr><td style="text-align:left;">--vue</td> <td style="text-align:left;">-i</td> <td style="text-align:left;">静态页面或者vue组件</td> <td style="text-align:left;">HTML</td></tr></tbody></table> <h3 id="示例"><a href="#示例" class="header-anchor">#</a> 示例</h3> <div class="language-bash extra-class"><pre class="language-bash"><code>jzjzy serve <span class="token operator">&lt;</span>path<span class="token operator">&gt;</span>
+</code></pre></div><blockquote><p>静态HTML文件</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token comment"># 当前目录为工程根目录</span>
+jzjy serve ./packages/ -P <span class="token string">'http://pigx-gateway:9999'</span> -o -p <span class="token number">3000</span>
+</code></pre></div><blockquote><p>VUE组件工程</p></blockquote> <div class="language-bash extra-class"><pre class="language-bash"><code>jzjy serve ./packages/verify/example -P <span class="token string">'http://pigx-gateway:9999'</span> -o -p <span class="token number">3000</span> -i
+</code></pre></div><div class="custom-block tip"><p class="custom-block-title">TIP</p> <blockquote><p>如若当前为vue工程，只需要一个vue文件和一个一个index.js作为入口，path必须指向入口文件，可以参考以下简单例子</p></blockquote></div> <h3 id="目录结构"><a href="#目录结构" class="header-anchor">#</a> 目录结构</h3> <div class="language- extra-class"><pre class="language-text"><code>- lib
+  - test.vue
+  - index.js
+</code></pre></div><h3 id="组件test-vue"><a href="#组件test-vue" class="header-anchor">#</a> 组件test.vue</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>test<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    // ...
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="入口文件index-js"><a href="#入口文件index-js" class="header-anchor">#</a> 入口文件index.js</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Test <span class="token keyword">from</span> <span class="token string">'./Test.vue'</span>
+
+Test<span class="token punctuation">.</span><span class="token function-variable function">install</span> <span class="token operator">=</span> <span class="token parameter">Vue</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+  Vue<span class="token punctuation">.</span><span class="token function">component</span><span class="token punctuation">(</span>Test<span class="token punctuation">.</span>name<span class="token punctuation">,</span> Test<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">typeof</span> window <span class="token operator">!==</span> <span class="token string">'undefined'</span> <span class="token operator">&amp;&amp;</span> window<span class="token punctuation">.</span>Vue<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  window<span class="token punctuation">.</span>Vue<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>Test<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Test
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/bobobabab/jzjy/js/request.html">
+        基于 Axios 二次封装的 Request 库
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/bobobabab/assets/js/app.f57e1d56.js" defer></script><script src="/bobobabab/assets/js/4.528b6e3f.js" defer></script><script src="/bobobabab/assets/js/27.d06d66c6.js" defer></script>
+  </body>
+</html>
